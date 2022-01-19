@@ -24,10 +24,12 @@ namespace HelloWorld
             Console.WriteLine("Escreva seu nome: ");
             String nome = Console.ReadLine();
             Console.WriteLine("Seu nome é "  +  nome);
+            String verificacao = "gabriel";
+
 
             Console.ReadLine();
 
-            if(nome.Equals("Gabriel")==true)
+            if(nome.Equals(verificacao)==true)
             {
                 Console.WriteLine("OK!!");
             }
